@@ -1,0 +1,16 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+.maplibregl-popup-content {
+  background: rgba(6, 20, 40, 0.92);
+  border-radius: 12px;
+  padding: 10px 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(125, 223, 255, 0.35);
+}
+
+.maplibregl-popup-tip {
+  border-top-color: rgba(6, 20, 40, 0.92) !important;
+  border-bottom-color: rgba(6, 20, 40, 0.92) !important;
+}
